@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body>div 
+{
+    background: url(../images/mainImage.jpg) no-repeat center;
+    background-size: cover;
+    z-index: -1;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+}   
+
+
+section 
+{
+    width: 100%;
+    height: 100vh;
+    padding-bottom: 8%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    background-color: rgb(50, 55, 55, 0.4);
+}
+
+.input-date-block {
+    position: fixed;
+    top: 0;
+    width: 220px;
+    height: 110px;
+    background: #1d1e22;
+    box-shadow: 0 0 20px #fffec9 , 0 0 40px #fffec9;
+    border-radius: 0 0 50% 50% / 0 0 100% 100%;
+    background: conic-gradient(#f1f3ad 0 0% , #2b2c30 0% 100%);
+
+}
+
+.input-date-block div {
+    margin: 10px auto 0 auto;
+    width: 150px;
+    height: 40px;
+    position: relative;
+}
+
+.input-date-block div input {
+    position: absolute;
+    border: none;
+    outline: none;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    font-size: 0;
+    opacity: 0;
+}
+.input-date-block div span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    color: #f7f8a4;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.input-date-block p {
+    color: #04dddd;
+    font-size: 22px;
+    text-align: center;
+    font-weight: 400;
+}
+
+.time-block {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 240px;
+    height: 240px;
+    margin: 0 25px;
+    border-radius: 50%;
+    cursor: default;
+    background: conic-gradient(#04dddd 0 0% , #2b2c30 0% 100%);
+    box-shadow: 0 0 10px #2b2c30 , 0 0 40px #2b2c30;
+}
+
+.time-block div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 210px;
+    height: 210px;
+    border-radius: 50%;
+    background-color: #1d1e22;
+    opacity: 0.9;
+    box-shadow: 0 0 20px #fffec9 , 0 0 40px #fffec9;
+    background: conic-gradient(#f1f3ad 0 0% , #2b2c30 0% 100%);
+}
+
+.time-block div ul li
+{
+    margin: -15px 0 0 0;
+    text-align: center ;
+}
+
+.time-block div ul li:nth-child(1)
+{
+    color: #04dddd;
+    font-size: 110px;
+    font-weight: 700;
+}
+
+.time-block div ul li:nth-child(2)
+{
+    color: #f7f8a4;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
