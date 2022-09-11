@@ -25,7 +25,7 @@ secondsFun = (total) =>
 
 minutesFun = (total) =>
     {
-        const minutes = Math.floor ((total/1000/60)%60)
+        const minutes = Math.floor((total/1000/60)%60)
         const mb = document.getElementById ('minutes')
         mb.querySelector('div ul li:nth-child(1)').innerHTML = ('0'+minutes).slice(-2)
         let m = 100-((1000/60)*minutes)
@@ -35,7 +35,7 @@ minutesFun = (total) =>
 
 hoursFun = (total) =>
     {
-        const hours = Math.floor ((total/(1000*60*60))%24)
+        const hours = Math.floor((total/(1000*60*60))%24)
         const hb = document.getElementById ('hours')
         hb.querySelector('div ul li:nth-child(1)').innerHTML = ('0'+hours).slice(-2)
         let h = 100-((1000/24)*hours)
@@ -45,7 +45,7 @@ hoursFun = (total) =>
 
 daysFun = (total) =>
     {
-        const days = Math.floor (total/(1000*60*60*24))
+        const days = Math.floor(total/(1000*60*60*24))
         const db = document.getElementById('days')
         db.querySelector('div ul li:nth-child( 1 )' ).innerHTML = ('0'+ days).slice( -2 )
         let d = 100 / days

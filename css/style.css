@@ -36,7 +36,7 @@ section
     width: 220px;
     height: 110px;
     background: #1d1e22;
-    box-shadow: 0 0 20px #fffec9 , 0 0 40px #fffec9;
+    box-shadow: 0 0 10px #1d1e22 , 0 0 20px #1d1e22;
     border-radius: 0 0 50% 50% / 0 0 100% 100%;
     background: conic-gradient(#f1f3ad 0 0% , #2b2c30 0% 100%);
 
@@ -89,8 +89,8 @@ section
     margin: 0 25px;
     border-radius: 50%;
     cursor: default;
-    background: conic-gradient(#04dddd 0 0% , #2b2c30 0% 100%);
-    box-shadow: 0 0 10px #2b2c30 , 0 0 40px #2b2c30;
+    background: conic-gradient(#02c2c2 0 0% , #303238 0% 100%);
+    box-shadow: 0 0 10px #303238 , 0 0 20px #303238;
 }
 
 .time-block div {
@@ -101,9 +101,9 @@ section
     height: 210px;
     border-radius: 50%;
     background-color: #1d1e22;
-    opacity: 0.9;
-    box-shadow: 0 0 20px #fffec9 , 0 0 40px #fffec9;
-    background: conic-gradient(#f1f3ad 0 0% , #2b2c30 0% 100%);
+    opacity: 0.8;
+    box-shadow: 0 0 4px #1d1e22 , 0 0 6px #1d1e22;
+    /* background: conic-gradient(#02c2c2 0 0% , #303238 0% 100%); */
 }
 
 .time-block div ul li
@@ -114,7 +114,7 @@ section
 
 .time-block div ul li:nth-child(1)
 {
-    color: #04dddd;
+    color: #02c2c2;
     font-size: 110px;
     font-weight: 700;
 }
