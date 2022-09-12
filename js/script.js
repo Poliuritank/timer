@@ -1,7 +1,19 @@
 let stopTime
 
+const button = document.getElementById('date-picker');
+
 const input = document.getElementById('input-date')
 input.value = ''
+
+
+button.addEventListener("click",  () => {
+  try {
+     input.showPicker();
+  } catch (error) {
+    console.log(error);
+  }
+});
+
 
 input.oninput = ()=>
 {
