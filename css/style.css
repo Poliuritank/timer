@@ -69,6 +69,8 @@ section {
   text-transform: uppercase;
   background: none;
   border: none;
+  z-index: 1;
+  cursor: pointer;
 }
 
 .input-date-block p {
